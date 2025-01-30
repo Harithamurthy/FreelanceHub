@@ -46,7 +46,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import "./../styles/ClientDashboard.css";
+import "./../styles/Clientdashboard.css";
 
 const ClientDashboard = () => {
   return (
