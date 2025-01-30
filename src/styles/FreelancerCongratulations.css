@@ -1,0 +1,340 @@
+
+/* 
+
+
+
+
+
+   .congratulations-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #1e90ff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .profile-summary {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .next-steps {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .next-steps ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .next-steps li {
+    margin: 10px 0;
+  }
+  
+  .options .btn {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .options .btn:hover {
+    background-color: #4682b4;
+  }
+  
+  .celebration-message {
+    margin-top: 30px;
+  }
+  
+  .celebration-icon {
+    margin-top: 20px;
+  }
+  
+  .celebration-gif {
+    width: 100px;
+    height: 100px;
+  }
+   */
+
+
+
+
+
+   /* General Styles */
+/* body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #f7faff, #cce7ff);
+  color: #333;
+} */
+
+/* Header Styles */
+.freelancehub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #213b58;
+  color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.freelancehub-header h1 {
+  font-size: 2rem;
+  margin: 0;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #1d3f4e;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.home-button:hover {
+  background: #ffd700;
+  transform: scale(1.1);
+}
+
+/* Congratulations Container */
+.congratulations-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.congratulations-container h2 {
+  font-size: 2.5rem;
+  color: #0a3c72;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.congratulations-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Profile Summary */
+.profile-summary {
+  background: #0d083f;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  animation: slideUp 1s ease-in-out;
+}
+
+.profile-summary h3 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  animation: bounceIn 1s ease-in-out;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Next Steps */
+.next-steps {
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.next-steps h3 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.next-steps ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.next-steps ul li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+/* Options */
+.options {
+  margin-top: 40px;
+}
+
+.options .btn {
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s, background 0.3s;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.options .btn:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Celebration Section */
+.celebration-message {
+  margin-top: 50px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.celebration-message h4 {
+  font-size: 1.5rem;
+  color: #ff5722;
+  margin-bottom: 15px;
+}
+
+.celebration-icon {
+  margin-top: 20px;
+}
+
+/* .celebration-gif {
+  width: 120px;
+  height: auto;
+  animation: spin 3s linear infinite;
+} */
+
+/* Animations */
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

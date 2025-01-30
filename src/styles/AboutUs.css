@@ -1,0 +1,91 @@
+.aboutus-container {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  /* Header */
+  .aboutus-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d4f95;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .aboutus-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .aboutus-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .aboutus-main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-section h1,
+  .mission-section h2,
+  .features-section h2,
+  .cta-section h2 {
+    color: #0d4f95;
+  }
+  
+  .features-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .feature-card {
+    width: 45%;
+    padding: 1.5rem;
+    background: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-section {
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #0d4f95;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #072e63;
+  }
+  
+  /* Footer */
+  .aboutus-footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #0d4f95;
+    color: white;
+  }
+  

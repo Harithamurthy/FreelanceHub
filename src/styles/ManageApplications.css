@@ -1,0 +1,255 @@
+/* .manage-applications-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-applications-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .applications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .application-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .application-job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .application-freelancer,
+  .application-cover-letter,
+  .application-status {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .application-status {
+    font-weight: bold;
+  }
+  
+  .application-status.accepted {
+    color: green;
+  }
+  
+  .application-status.rejected {
+    color: red;
+  }
+  
+  .application-status.pending {
+    color: orange;
+  }
+  
+  .application-actions {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .accept-btn {
+    background-color: #4caf50;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+   */
+
+
+
+
+
+
+
+/* Ensure styles apply only to Manage Applications Page */
+.manage-applications-page {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+/* Header */
+.manage-applications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #4A90E2, #007BFF);
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Main Container */
+.manage-applications-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+.manage-applications-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Search Bar */
+.search-bar {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.search-bar:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Applications List */
+.applications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Application Cards */
+.application-card {
+  background: rgb(5, 18, 70);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.application-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Job Title */
+.application-job-title {
+  color: #007BFF;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Freelancer Name */
+.application-freelancer {
+  font-weight: bold;
+}
+
+/* Cover Letter */
+.application-cover-letter {
+  font-style: italic;
+  color: #555;
+}
+
+/* Status */
+.application-status {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Status Colors */
+.pending {
+  color: #f39c12;
+}
+
+.accepted {
+  color: #2ecc71;
+}
+
+.rejected {
+  color: #e74c3c;
+}
+
+/* Buttons */
+.application-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.3s;
+}
+
+.accept-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.reject-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+  margin-top: 20px;
+}

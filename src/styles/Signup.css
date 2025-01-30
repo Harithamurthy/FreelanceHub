@@ -1,0 +1,141 @@
+
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+   background: linear-gradient(to bottom right, #1e3c72, #2a5298); 
+  color: #0c0b0b;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  animation: fadeInDown 1s ease;
+}
+
+.header-nav,
+.header-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content */
+.signup-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-container {
+  background-color: rgba(3, 35, 75, 0.9);
+  color: #e8e0e0;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease;
+}
+
+.signup-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e3c72;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #2a5298;
+}
+
+.signup-footer {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+.signup-login-link {
+  color: #1e3c72;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-login-link:hover {
+  color: #2a5298;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,175 @@
+/* 
+.client-dashboard {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dashboard-header .logo {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.dashboard-header .home-button {
+  background-color: #ffdf00;
+  color: black;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.dashboard-header .home-button:hover {
+  background-color: #ffcc00;
+  transform: scale(1.1);
+}
+
+
+.job-management {
+  margin-top: 20px;
+}
+
+.job-management .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.job-management .btn:hover {
+  background-color: #0056b3;
+}
+
+
+.image-container {
+  margin-top: 40px;
+}
+
+.page-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+} */
+
+
+
+
+.client-dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004c8c;
+  padding: 10px 20px;
+  color: white;
+}
+
+.dashboard-header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dashboard-header .home-button {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #004c8c;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.job-management {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.job-management h3 {
+  font-size: 1.8rem;
+  color: #004c8c;
+}
+
+.management-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #003366;
+}
+
+.btn-manage-jobs {
+  background-color: #4CAF50;
+}
+
+.btn-post-job {
+  background-color: #007BFF;
+}
+
+.icon {
+  font-size: 1.5rem;
+}

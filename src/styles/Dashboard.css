@@ -1,0 +1,255 @@
+/* 
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #080808, #427ba9); 
+  font-family: "Arial", sans-serif;
+}
+
+
+.dashboard-header {
+  width: 100%;
+  padding: 15px 30px;
+  background-color:rgb(5, 38, 53);
+  backdrop-filter: blur(10px);
+  color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+.dashboard-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.role-card {
+  flex: 1 1 250px;
+  max-width: 300px;
+  aspect-ratio: 1; 
+  background: rgba(18, 17, 17, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.role-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(14, 13, 13, 0.3);
+}
+
+.role-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.role-card p {
+  font-size: 16px;
+  color: #ececec;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(8, 8, 9, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(38, 43, 48);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .role-card {
+    flex: 1 1 100%; 
+  }
+
+  .dashboard-title {
+    font-size: 28px;
+  }
+} */
+
+
+
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #f4f4f4;
+}
+
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: #080808;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.btn-home {
+  color: #fff;
+  background-color: #ff6347; 
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: #ff4500; 
+}
+
+
+.dashboard-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #dacece;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.role-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.role-card h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.role-card p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #007bff;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-client {
+  background-color: #28a745;
+}
+
+.btn-client:hover {
+  background-color: #218838;
+}
+
+.btn-freelancer {
+  background-color: #17a2b8;
+}
+
+.btn-freelancer:hover {
+  background-color: #138496;
+}
+
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .role-card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .btn-home {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .dashboard-title {
+    font-size: 2rem;
+  }
+}

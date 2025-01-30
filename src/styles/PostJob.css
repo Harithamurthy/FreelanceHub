@@ -1,0 +1,266 @@
+/* 
+.post-job-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f7fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.post-job-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.post-job-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-job-form label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.post-job-form input,
+.post-job-form select,
+.post-job-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.post-job-form input:focus,
+.post-job-form select:focus,
+.post-job-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.post-job-form textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.success-message,
+.error-message {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #dc3545;
+  color: white;
+  text-align: center;
+}
+
+
+.preview-button,
+.clear-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.preview-button {
+  background-color: #ffc107;
+  margin-right: 10px;
+}
+
+.clear-button {
+  background-color: #f44336;
+}
+
+.preview-button:hover {
+  background-color: #e0a800;
+}
+
+.clear-button:hover {
+  background-color: #c0392b;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+} */
+
+
+
+
+
+
+/* Ensure styles only apply to PostJob.jsx */
+.post-job-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f7fc;
+  padding: 20px;
+}
+
+/* Header Styling */
+.post-job-header {
+  width: 100%;
+  max-width: 1900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #4A90E2, #007BFF);
+  padding: 15px 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-button {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s;
+}
+
+.home-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Centering Job Post Container */
+.post-job-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  text-align: center;
+  max-width:500px;
+
+}
+
+/* Title Styling */
+.post-job-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Styling */
+.post-job-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width:500px;
+}
+
+.post-job-form label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.post-job-form input,
+.post-job-form select,
+.post-job-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.post-job-form input:focus,
+.post-job-form select:focus,
+.post-job-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Success Message */
+.success-message {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form Actions */
+.form-actions {
+  display: flex;
+  justify-content: center;
+}

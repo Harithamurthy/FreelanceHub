@@ -1,0 +1,312 @@
+/* 
+.applications-container {
+  font-family: "Poppins", sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #7c2a2a;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+
+.applications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: rgb(44, 41, 41);
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.applications-header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  flex-grow: 1;
+  text-align: left;
+}
+
+
+.home-button {
+  background: #215b5f;
+  color: black;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.home-button:hover {
+  background: #2babd5;
+  transform: scale(1.1);
+} */
+
+
+
+/* 
+
+.home-button:hover {
+  background: #2babd5;
+  transform: scale(1.1);
+}
+
+h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+
+.applications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.application-card {
+  background: #120101;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideIn 0.6s ease-out;
+  
+}
+
+.application-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+.application-card h3 {
+  color: #007bff;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.application-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 5px 0;
+}
+
+.application-card strong {
+  color: #000;
+}
+
+
+.no-applications {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@media (max-width: 600px) {
+  .applications-container {
+    max-width: 95%;
+  }
+
+  .applications-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .home-button {
+    margin-top: 10px;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+} */
+
+
+
+
+
+
+/* Container */
+.applications-container {
+  font-family: "Poppins", sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Header Section */
+/* Header Section */
+.applications-header {
+  display: flex; /* Make it a flex container */
+  justify-content: space-between; /* Distribute space between title and button */
+  align-items: center; /* Vertically align items */
+  background: #111d2c; /* Subtle dark blue */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Title (FreelanceHub) */
+.applications-header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+}
+
+/* Home Button */
+.home-button {
+  background: #ffcc00; /* Bright yellow */
+  color: #333;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Home Button Hover Effect */
+.home-button:hover {
+  background: #ffdb4d;
+  transform: scale(1.1);
+}
+
+/* Title */
+h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Application List */
+.applications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Application Card */
+.application-card {
+  background: #f2f8ff; /* Light blue background */
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #cce4ff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.application-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Application Card Content */
+.application-card h3 {
+  color: #004c99; /* Dark blue for title */
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.application-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 5px 0;
+}
+
+.application-card strong {
+  color: #000;
+}
+
+/* No Applications Message */
+.no-applications {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .applications-container {
+    max-width: 95%;
+  }
+
+  .applications-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .home-button {
+    margin-top: 10px;
+    width: auto;
+    display: block;
+  }
+}
